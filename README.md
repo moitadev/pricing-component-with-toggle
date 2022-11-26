@@ -21,7 +21,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Live](https://react-pricing-component-with-toggle.netlify.app)
 - Live Site URL: [pricing-component-with-toggle](https://react-pricing-component-with-toggle.netlify.app/)
 
 ## My process

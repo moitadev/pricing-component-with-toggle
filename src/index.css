@@ -29,7 +29,7 @@ body {
 
 .App {
   height: 100vh;
-  background-image: url(/public/bg-top.svg), url(/public/bg-bottom.svg);
+  background-image: url(/bg-top.svg), url(/bg-bottom.svg);
   background-repeat: no-repeat;
   background-position: right top, left bottom;
 }

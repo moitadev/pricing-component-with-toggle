@@ -1,2 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root{
+  --body: hsl(240, 78%, 98%);
+  --text: hsl(233, 13%, 49%);
+  --text-dark: hsl(232, 13%, 33%);
+  --text-light: hsl(234, 14%, 74%);
+  --primary: hsl(237, 63%, 64%);
+  --secondary: hsl(236, 72%, 79%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.15;
+  font-size: 15px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--body);
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text);
+}
+
+.App {
+  height: 100vh;
+  background-image: url(/public/bg-top.svg), url(/public/bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
+}
